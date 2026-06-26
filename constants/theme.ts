@@ -7,7 +7,7 @@ import { Platform } from 'react-native';
 
 const tintColorLight = '#0a7ea4';
 const tintColorDark = '#fff';
-
+const iconSize = 27; // Taille de l'icône
 export const Colors = {
   light: {
     text: '#11181C',
@@ -51,3 +51,6 @@ export const Fonts = Platform.select({
     mono: "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
   },
 });
+export const Size ={
+  iconSize: iconSize,
+} // Taille de l'icône
